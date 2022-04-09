@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.header{
+	border: 1px solid rgba(0, 0, 0, 0.08);
+}
+nav{
+	display: flex;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	align-items: center;
+}
+.fa-linkedin{
+	margin-left: 360px;
+	color: #0055c0;
+	font-size: 38px;
+}
+.fa-linkedin:hover{
+	cursor: pointer;
+}
+.search-glass{
+	position: absolute;
+	padding-left: 20px;
+	padding-top: 10px;
+	min-width: 40px;
+	color: #5b5b5b;
+}
+.search-input{
+	padding: 10px;
+	padding-left: 40px;
+	margin-left: 10px;
+	text-align: left;
+	border: none;
+	outline: none;
+	width: 230px;;
+	background-color: rgba(210, 245, 255, 0.39);
+}
+.row{
+	display: flex;
+	margin-left: 180px;
+	justify-content: space-between;
+}
+.header-col{
+	color: #5b5b5b;
+	font-size: 18px;
+	padding-right: 30px;
+}
+.header-col p{
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 12px;
+}
+.header-col:hover{
+	cursor: pointer;
+	color: black;
+}
+.fa-house{
+	margin-left: 7px;
+}
+.bar-user-group{
+	margin-left: 23px;
+}
+.fa-suitcase{
+	margin-left: 5px;
+}
+.fa-message{
+	margin-left: 22px;
+}
+.fa-bell{
+	margin-left: 28px;
+}
+.fa-user{
+	margin-left: 1px;
+}
+.main-info{
+	background-color: #f3f2ef;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+.main-block{
+	margin-left: 350px;
+	margin-top: 20px;
+	width: 780px;
+	height: 530px;
+	border-radius: 10px;
+	background-color: white;
+}
+.profile-background-pic{
+	width: 780px;
+	height: 200px;
+	position: relative;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.profile-background-pic:hover{
+	cursor: pointer;
+}
+.profile-pic{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: absolute;
+	top: 110px;
+	left: 380px;
+	border: 5px solid white;
+}
+.profile-pic:hover{
+	cursor: pointer;
+}
+.fa-camera{
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;
+	padding: 10px;
+	top: 40px;
+	left: 1075px;
+}
+.fa-camera:hover{
+	cursor: pointer;
+}
+.profile-text{
+	padding-left: 20px;
+	padding-top: 50px;
+}
+.blue-info{
+	color: #2288dd;
+	font-size: 13px;
+	font-weight: bold;
+}
+.blue-info:hover{
+	cursor: pointer;
+	border-bottom: 1px solid #2288dd;
+}
+.gray-info{
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 13px;
+}
+.in-line{
+	display: flex;
+	margin-top: 10px;
+}
+.bubbles{
+	font-size: 15px;
+	border-radius: 15px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.blue-selection-bubble{
+	font-weight: 500;
+	margin-right: 10px;
+	color: white;
+	background-color: #0a66c2;
+}
+.blue-selection-bubble:hover{
+	cursor: pointer;
+	background-color: #0b5394;
+}
+.white-selection-bubble{
+	font-weight: 600;
+	margin-right: 10px;
+	color: #2288dd;
+	border: 1px solid #2288dd;
+}
+.white-selection-bubble:hover{
+	cursor: pointer;
+	border: 1px solid #0055c0;
+	background-color: #cfe2f3;
+}
+.gray-selection-bubble{
+	color: rgba(0, 0, 0, 0.6);
+	border: 1px solid rgba(0, 0, 0, 0.6);
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.gray-selection-bubble:hover{
+	cursor: pointer;
+	background-color: #e9e5df;
+}
+.top-pencil{
+	position: absolute;
+	top: 230px;
+	left: 1080px;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 50%;
+}
+.top-pencil:hover{
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.open-to-work{
+	margin-top: 20px;
+	width: 380px;
+	height: 60px;
+	border-radius: 10px;
+	background-color: #e9e5df;
+	padding: 10px;
+	padding-bottom: 15px;
+	font-size: 14px;
+}
+.open-to-work:hover{
+	cursor: pointer;
+}
+.p-bold{
+	font-weight: 550;
+	color: rgba(0, 0, 0, 0.7);
+}
+.bottom-pencil{
+	position: relative;
+	margin-left: 255px;
+	border-radius: 50%;
+	padding: 5px;
+}
+.bottom-pencil:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.work-logos{
+	position: absolute;
+	top: 280px;
+	left: 860px;
+}
+.logo{
+	height: 30px;
+	width: 30px;
+}
+.logo:hover{
+	cursor: pointer;
+}
+.work-logos p{
+	margin-left: 10px;
+	font-size: 14px;
+}
+.work-logos p:hover{
+	color: #2288dd;
+	cursor: pointer;
+	border-bottom: 1px solid #2288dd;
+}
+.suggestions{
+	margin-left: 350px;
+	margin-top: 20px;
+	padding: 20px;
+	width: 740px;
+	border-radius: 10px;
+	background-color: white;
+	font-size: 13px;
+}
+.suggestions span{
+	margin-left: 5px;
+}
+.fa-eye{
+	color: rgba(0, 0, 0, 0.6);
+}
+.analytic-user-group{
+
+}
